@@ -90,7 +90,7 @@ ETL/
 
 ---
 
-## ▶ Como Executar
+## Como Executar
 
 ### 1️⃣ Criar ambiente virtual (opcional, recomendado)
 
