@@ -23,7 +23,7 @@ O código foi estruturado seguindo boas práticas de Engenharia de Dados, permit
 
 ---
 
-## 📊 Visão Geral
+## Visão Geral
 
 O pipeline realiza:
 
