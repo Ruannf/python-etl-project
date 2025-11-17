@@ -34,4 +34,91 @@ O pipeline realiza:
 ---
 
 ## 🏗️ Arquitetura do Projeto
+CSV → Extract (Pandas) → Transform → Load (SQLAlchemy) → SQL Server
+
+---
+
+## 🔧 Tecnologias Utilizadas
+
+- **Python 3.11+**
+- **Pandas**
+- **SQLAlchemy**
+- **PyODBC**
+- **python-dotenv**
+- **SQL Server**
+- **VSCode** (desenvolvimento)
+
+---
+
+## 🧩 Funcionalidades
+
+### ✔ Extract
+- Leitura do CSV com validações
+- Tratamento de arquivos vazios ou inexistentes
+- Padronização automática dos nomes das colunas
+- Conversão inicial de tipos
+
+### ✔ Transform
+- Renomeação de colunas para padrão do banco
+- Ajuste de datas
+- Conversão de campos booleanos
+- Inclusão de metadados:
+  - `UPLOAD_DATE`
+  - `UPLOAD_BY`
+
+### ✔ Load
+- Conexão com SQL Server via SQLAlchemy + PyODBC
+- Inserção com `if_exists='append'`
+- Logs claros sobre sucesso e falha
+- Tratamento de exceções
+
+---
+
+## 📁 Estrutura de Pastas
+
+ETL/
+├── Main.py # Orquestra o pipeline completo
+├── Extract.py # Funções de extração
+├── Transform.py # Funções de transformação
+├── Load.py # Funções de carga
+├── arquivos/
+│ └── employees_data.csv
+├── acesso.env # Variáveis de ambiente
+└── README.md
+
+---
+
+## ▶ Como Executar
+
+### 1️⃣ Criar ambiente virtual (opcional, recomendado)
+
+python -m venv venv
+venv\Scripts\activate   # Windows
+
+### 2️⃣ Instalar dependências
+pip install -r requirements.txt
+
+### 3️⃣ Configurar variáveis de ambiente
+Crie um arquivo acesso.env:
+
+DRIVER=ODBC Driver 17 for SQL Server
+SERVER=SEU_SERVIDOR
+DATABASE=SUA_BASE
+UID=SEU_USUARIO
+PWD=SUA_SENHA
+USUARIO_UPLOAD=SEU_NOME
+
+### 4️⃣ Executar o pipeline
+python Main.py
+
+### 📌 Logs do Pipeline
+
+🟦 Iniciando processo ETL...
+📥 Extraindo dados do CSV tratado...
+✔ 100 linhas extraídas com sucesso.
+🛠 Aplicando transformações e padronizações no DataFrame...
+✔ 100 registros prontos para inserção.
+📤 Iniciando etapa de upload para o banco...
+✔ 100 registros inseridos na tabela [TBL_EMPLOYEES].
+🏁 Processo ETL finalizado com sucesso!
 
