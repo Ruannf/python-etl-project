@@ -128,3 +128,13 @@ python Main.py
 ✔ 100 registros inseridos na tabela [TBL_EMPLOYEES].
 🏁 Processo ETL finalizado com sucesso!
 
+## Melhorias Futuras
+
+- Criar agendamento automático do pipeline (Airflow ou Prefect)
+- Adicionar testes automatizados para as funções de ETL
+- Implementar validações de dados antes da carga
+- Adicionar logs detalhados e monitoramento
+- Dockerizar o projeto para facilitar deploy
+- Criar API para execução e acompanhamento do ETL
+- Suporte a novas fontes de dados (APIs, Excel, múltiplos bancos)
+- Criar dashboard para visualização dos dados carregados
