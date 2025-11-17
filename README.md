@@ -8,7 +8,7 @@ O código foi estruturado seguindo boas práticas de Engenharia de Dados, permit
 
 ## 📑 Índice
 
-- [Visão Geral](##visão-geral)
+- [Visão Geral](#visão-geral)
 - [Arquitetura do Projeto](#arquitetura-do-projeto)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Funcionalidades](#funcionalidades)
