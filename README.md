@@ -95,8 +95,12 @@ ETL/
 python -m venv venv
 venv\Scripts\activate   # Windows
 
-### 2️⃣ Instalar dependências
-pip install -r requirements.txt
+### 2️⃣ Dependências do Projeto
+Python 3.x
+Pandas — leitura e manipulação de dados
+SQLAlchemy — engine e conexão com SQL Server
+PyODBC — driver ODBC para integração com SQL Server
+Python-dotenv — carregamento de variáveis de ambiente
 
 ### 3️⃣ Configurar variáveis de ambiente
 Crie um arquivo acesso.env:
