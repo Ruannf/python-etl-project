@@ -23,7 +23,7 @@ O código foi estruturado seguindo boas práticas de Engenharia de Dados, permit
 
 ---
 
-## Visão Geral
+## Visão Geral 📊
 
 O pipeline realiza:
 
@@ -35,7 +35,7 @@ O pipeline realiza:
 
 ---
 
-## 🏗️ Arquitetura do Projeto
+## Arquitetura do Projeto 🏗️
 CSV → Extract (Pandas) → Transform → Load (SQLAlchemy) → SQL Server
 
 ---
@@ -52,7 +52,7 @@ CSV → Extract (Pandas) → Transform → Load (SQLAlchemy) → SQL Server
 
 ---
 
-## 🧩 Funcionalidades
+## Funcionalidades 🧩
 
 ### ✔ Extract
 - Leitura do CSV com validações
@@ -76,7 +76,7 @@ CSV → Extract (Pandas) → Transform → Load (SQLAlchemy) → SQL Server
 
 ---
 
-## 📁 Estrutura de Pastas
+## Estrutura de Pastas 📁
 
 ETL/
 ├── Main.py # Orquestra o pipeline completo
@@ -117,7 +117,7 @@ USUARIO_UPLOAD=SEU_NOME
 ### 4️⃣ Executar o pipeline
 python Main.py
 
-### 📌 Logs do Pipeline
+### Logs do Pipeline 📌
 
 🟦 Iniciando processo ETL...
 📥 Extraindo dados do CSV tratado...
