@@ -104,7 +104,7 @@ SQLAlchemy — engine e conexão com SQL Server
 PyODBC — driver ODBC para integração com SQL Server
 Python-dotenv — carregamento de variáveis de ambiente
 
-### 3️⃣ Configurar variáveis de ambiente
+## Configuração do Ambiente (.env)
 Crie um arquivo acesso.env:
 
 DRIVER=ODBC Driver 17 for SQL Server
