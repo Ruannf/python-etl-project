@@ -8,6 +8,7 @@ O código foi estruturado seguindo boas práticas de Engenharia de Dados, permit
 
 ## 📑 Índice
 
+## Índice
 - [Visão Geral](#visão-geral)
 - [Arquitetura do Projeto](#arquitetura-do-projeto)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
@@ -18,6 +19,7 @@ O código foi estruturado seguindo boas práticas de Engenharia de Dados, permit
 - [Exemplo de Dados](#exemplo-de-dados)
 - [Logs do Pipeline](#logs-do-pipeline)
 - [Melhorias Futuras](#melhorias-futuras)
+
 
 ---
 
