@@ -16,7 +16,6 @@ O código foi estruturado seguindo boas práticas de Engenharia de Dados, permit
 - [Estrutura de Pastas](#estrutura-de-pastas)
 - [Como Executar](#como-executar)
 - [Configuração do Ambiente (.env)](#configuração-do-ambiente-env)
-- [Exemplo de Dados](#exemplo-de-dados)
 - [Logs do Pipeline](#logs-do-pipeline)
 - [Melhorias Futuras](#melhorias-futuras)
 
